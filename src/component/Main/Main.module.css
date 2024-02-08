@@ -1,0 +1,16 @@
+
+
+.main{
+    height: 800px;
+    background-color: #e8e8e8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.main__title{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 28px;
+}
