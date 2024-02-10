@@ -3,12 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .container{
-    width: 1440px;
+body{
+    font-family: 'Inter', sans-serif;    
+}
+
+.container{
+    max-width: 1315px;
+    width: 100%;
+    border: 1px solid red;
     margin:  auto;
-} */
+}
 
  a{
     text-decoration: none;
     color: #fff;
+ }
+
+ .app{
+    position: relative;
  }

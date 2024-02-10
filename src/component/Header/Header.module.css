@@ -37,16 +37,27 @@
 .header__catalog button img {
     vertical-align: middle;
 }
-.btn{
+.basket{
     margin-left: 153px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    position: relative;
 }
-.btn button{
+.basket button{
     border: none;
     background-color: #9DC82C;
     color: #fff;
     display: flex;
     align-items: center;
 }
-.btn img{
+.basket img{
     margin-right: 4px;
+}
+.basket p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #ffffff95;
 }

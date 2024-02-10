@@ -27,3 +27,38 @@ export const catalog_3 = [
         name: 'Малые формы  '
     }
 ]
+export const catalog_4 = [
+    {
+        name: 'Банкетки'
+    },
+    {
+        name: 'Журнальные столы'
+    }
+]
+export const catalog_5 = [
+    {
+        name: 'Журнальные столы'
+    },
+    {
+        name: 'Кресло руководителя'
+    },
+    {
+        name: 'Офисные кресла '
+    }
+]
+export const catalog_6 = [
+    {
+        name: 'Кухонные уголки'
+    },
+    {
+        name: 'Интерьерные диваны'
+    },
+    {
+        name: 'Кровати'
+    },
+    {
+        name: 'Распродажа'
+    }
+]
+
+

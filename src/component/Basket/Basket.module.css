@@ -1,0 +1,19 @@
+
+.basket{
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 215px;
+    height: 264px;
+    border: 1px solid #000;
+    padding: 15px;
+    padding-top: 20px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.basket__item{}
+.basket__item img{}
+.basket__item h3{}
+.basket__length{}
+.basket__btn{}

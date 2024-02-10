@@ -1,16 +1,27 @@
-
-
-.main{
-    height: 800px;
-    background-color: #e8e8e8;
-    width: 100%;
-    display: flex;
-    align-items: center;
+.main {
+  background-color: #e8e8e8;
+  width: 100%;
 }
-.main__title{
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 55px;
-    margin-bottom: 28px;
+.main__title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 28px;
+}
+
+.main__banner {
+  display: flex;
+}
+.baner__text {
+  padding-top: 267px;
+  padding-bottom: 175px;
+}
+.baner__text p {
+  width: 482px;
+  margin-bottom: 57px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }

@@ -1,20 +1,35 @@
+import React, { useState } from "react";
+import Header from "./component/Header/Header";
+import Catalog from "./component/Catalog/Catalog";
+import Main from "./component/Main/Main";
+import Basket from "./component/Basket/Basket";
 
+// homework  react hooks деген эмне
 
-import React from 'react'
-import Header from './component/Header/Header'
-import Catalog from './component/Catalog/Catalog'
-import Main from './component/Main/Main'
-
+// react hooks - реакт хуки
+// useState()
 const App = () => {
+  const [showCatalog, setShowCatalog] = useState(false);
+  const [showBasket, setShowBasket] = useState(false);
+
+  const handleToggleCatalog = () => {
+    setShowCatalog(!showCatalog)
+  }
+  const handleToggleBasket = () => {
+    setShowBasket(!showBasket)
+  }
+
   return (
-    <div>
-      <Header />
+    <div className="app">
+      <Header 
+      handleToggleCatalog={handleToggleCatalog}
+      handleToggleBasket={handleToggleBasket}
+      />
       <Main />
-      <Catalog /> 
-
+      {showCatalog && <Catalog />} 
+      {showBasket  && <Basket />} 
     </div>
-  )
-}
+  );
+};
 
-export default App
-App
+export default App;
