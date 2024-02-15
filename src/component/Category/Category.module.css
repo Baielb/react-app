@@ -1,0 +1,35 @@
+.category__title{
+    padding-top: 187px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+/* кнопканы калтырыш керек */
+
+.category__tabs ul li {
+    padding: 10px 12px;
+    transition: all 0.3s ease-in-out;
+}
+.category__tabs ul li:hover {
+    background-color: #363636;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.category__tabs ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #363636;
+    color: #fff;
+    border-radius: 10px;
+}

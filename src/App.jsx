@@ -3,6 +3,10 @@ import Header from "./component/Header/Header";
 import Catalog from "./component/Catalog/Catalog";
 import Main from "./component/Main/Main";
 import Basket from "./component/Basket/Basket";
+import Category from "./component/Category/Category";
+import Products from "./component/Products/Products";
+import News from "./component/News/News";
+import Youtube from "./component/Youtube/Youtube";
 
 // homework  react hooks деген эмне
 
@@ -26,6 +30,10 @@ const App = () => {
       handleToggleBasket={handleToggleBasket}
       />
       <Main />
+      <Category />
+      <Products />
+      <News /> 
+      <Youtube />
       {showCatalog && <Catalog />} 
       {showBasket  && <Basket />} 
     </div>

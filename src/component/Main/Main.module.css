@@ -1,27 +1,134 @@
-.main {
-  background-color: #e8e8e8;
-  width: 100%;
-}
-.main__title {
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 55px;
-  margin-bottom: 28px;
-}
-
-.main__banner {
-  display: flex;
-}
-.baner__text {
-  padding-top: 267px;
-  padding-bottom: 175px;
-}
-.baner__text p {
-  width: 482px;
-  margin-bottom: 57px;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+.main { 
+  background-color: #E8E8E8; 
+  width: 100%; 
+} 
+ 
+.main__banner { 
+  display: flex; 
+  justify-content: space-between; 
+} 
+ 
+.banner__text { 
+  padding-top: 267px; 
+  padding-bottom: 175px; 
+} 
+ 
+.banner__text p { 
+  width: 482px; 
+  margin-bottom: 57px; 
+  font-family: Inter; 
+  font-size: 18px; 
+  font-weight: 400; 
+  line-height: 30px; 
+} 
+ 
+.main__title { 
+  font-family: Inter; 
+  font-size: 48px; 
+  font-weight: 700; 
+  line-height: 55px; 
+  margin-bottom: 28px; 
+} 
+ 
+.search { 
+  width: 533px; 
+  height: 62px; 
+  border-radius: 10px; 
+  border: 1px solid #fff; 
+  display: flex; 
+  align-items: center; 
+  padding: 14px 14px 14px 25px; 
+  justify-content: space-between; 
+} 
+ 
+.search select { 
+  border: 0; 
+  background-color: transparent; 
+} 
+ 
+.select__box { 
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+} 
+ 
+.selectLine { 
+  height: 28px; 
+  width: 1px; 
+  background-color: red; 
+} 
+ 
+.selectBtn { 
+  width: 34px; 
+  height: 34px; 
+  border-radius: 50%; 
+  background-color: #9DC82C; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+ 
+.banner__img { 
+  position: relative; 
+  width: 650px; 
+} 
+ 
+.img__top { 
+  text-align: right; 
+} 
+ 
+.lamp { 
+  margin-right: 100px; 
+} 
+ 
+.img__bottom { 
+  position: absolute; 
+  left: 0; 
+  bottom: -160px; 
+  border: 1px solid black; 
+  z-index: 20; 
+} 
+ 
+.mebel__bg { 
+  width: 365px; 
+  height: 321px; 
+  background-color: #D0D0D0; 
+  border-radius: 10px; 
+  position: absolute; 
+  z-index: -1; 
+  left: 28%; 
+  top: -80px; 
+} 
+ 
+.koja { 
+  width: 193px; 
+  height: 62px; 
+  border-radius: 20px; 
+  background-color: red; 
+  position: absolute; 
+  left: 100px; 
+  bottom: 160px; 
+  display: flex; 
+  align-items: center; 
+  padding: 13px; 
+  gap: 10px; 
+} 
+ 
+.koja p { 
+  font-family: Inter; 
+  font-size: 14px; 
+  font-weight: 500; 
+  line-height: 17px; 
+  width: 94px; 
+  color: #fff; 
+} 
+ 
+.circle { 
+  width: 36px; 
+  height: 36px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #FFB82E; 
+  border-radius: 50%; 
 }
